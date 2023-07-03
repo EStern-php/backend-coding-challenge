@@ -139,7 +139,6 @@ class apiController {
     }
 
     public function compareStates($states, $externalData) {
-       // $extData = json_decode($this->getExternalData($year));
         $population = array();
 
         if (!isset($states[0]) || !isset($states[1])) {
